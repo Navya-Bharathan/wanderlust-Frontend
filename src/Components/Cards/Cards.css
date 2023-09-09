@@ -1,0 +1,102 @@
+/*.featured-hotels-container, .top-destinations-container,.inspirations-container{
+    width:100%;
+    max-width: 1024px;
+    justify-content: space-between;
+    gap:20px;
+}
+*/
+.featured-hotels-container{
+   
+    margin:2rem;
+
+}
+.favourite{
+    padding-left: 2rem;
+    font-size: 25px;
+}
+.featured-hotels{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.featured-hotel-card{
+    /*border: 1px solid rgba(205, 199, 199, 0.939);*/
+    box-shadow: 5px 5px 10px;
+    margin: 0 1rem;
+}
+.fh-Image{
+    width:200px;
+   padding: 1rem ;
+   
+}
+
+.fh-info p{
+    margin: 0;
+    margin-left: 1rem;
+    color: rgb(66, 220, 146)
+}
+.fh-title{
+    font: 16px bold;
+}
+.fh-rating, .fh-place, .fh-country , .fh-price{
+    font:14px light;
+    
+}
+.fh-country,.fh-place{
+    display: inline;
+}
+/*------------- Top Destinations----------------*/
+.top-destinations-container{
+    margin: 3rem;
+    padding-top: 3rem;
+}
+.top-destination-card{
+    background-color:rgb(97, 218, 178) ;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.top-destinations{
+    display:flex;
+    justify-content: space-around;
+}
+
+.td-Image{
+    width:320px;
+}
+.td-name{
+    align-self: center;
+    color:white;
+   font-weight: bolder;
+}
+/*---------------------- travel-inspiration------------------ */
+.inspirations-container{
+    margin: 3rem;
+    padding-top: 3rem;
+}
+.inspirations{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.inspirations-card{
+    display:flex;
+    flex-direction: column;
+   
+    margin: 1rem;
+    width:320px;
+    align-items: center;
+    box-shadow: 1px 1px 4px;
+}
+.ins-Image{
+    width:315px;
+    height: 250px;
+    margin-top: 1rem;
+}
+.ins-title{
+    font-weight:bolder;
+    font-size: 20px;
+}
+.ins-description{
+    margin: 1rem
+}

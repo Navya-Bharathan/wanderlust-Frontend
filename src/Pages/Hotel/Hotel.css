@@ -1,0 +1,114 @@
+.hotel-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+.hotel-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+  width: 100%;
+}
+.hotel-info{
+  margin: 1rem 0;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-reserve-btn{
+  width: 120px;
+  background-color: rgb(73, 190, 161);
+  border: none;
+  border-radius: 5px;
+  margin-right: 5rem;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0.5rem;
+  
+}
+.info-reserve-btn:hover{
+  background-color: black;
+  color: rgb(73, 190, 161);
+}
+
+.hotel-info h4{
+ margin-block-end: 10px;
+}
+.hotel-location{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  }
+  .hotel-distance{
+    font-size:12px;
+  }
+  .hotel-highlight{
+    font-size: 12px;
+  }
+/*...............gallery..............*/
+.hotel-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  
+}
+/*.hotel-image{
+  height:150px;
+  width: 170px;
+}*/
+.hotel-image-container{
+  width:33%;
+}
+.hotel-image{
+  width:100%;
+}
+/*--------------      hotel-desc ---------------------*/
+.hotel-details{
+display: flex;
+justify-content: space-between;
+
+}
+.hotel-reserve{
+background-color:rgba(107, 208, 180, 0.771) ;
+padding: 1rem;
+border-radius:5px;
+}
+.hotel-desc p{
+  font-size: 12px;
+}
+.hotel-desc{
+  margin-right:2rem;
+}
+.image-slider-container{
+ height: 80vh;
+ width:1025px;
+ background-color: rgb(132, 187, 187);
+ z-index: 3;
+ position:absolute;
+ top: 180px;
+display:flex;
+flex-direction: column;
+
+}
+.hotel-image{
+  z-index:9 ;
+}
+.slider-image{
+  width:700px;
+  
+  
+}
+.slider-head{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 1rem;
+}
+.image-slider-carasoul{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  
+}

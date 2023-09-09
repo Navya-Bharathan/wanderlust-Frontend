@@ -1,0 +1,84 @@
+.footer-container{
+    background-color: black;
+    color:rgb(211, 206, 206);
+    display:flex;
+    width:100%;
+    flex-wrap: nowrap;
+    font-size: 14px;
+   
+    
+}
+/*---------     about   ---------*/
+.footer-about{
+    flex:35%;
+    padding:1rem 2rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.social-icons i{
+  margin: 1rem 0.5rem;
+}
+.react-icons{
+    font-size: 20px;
+}
+
+/*---------    navigation    ---------*/
+.footer-navigation{
+    flex: 15%;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1rem 2rem;
+}
+.footer-navigation ul{
+    list-style: none;
+    padding-inline-start: 0;
+    
+}
+.footer-navigation li{
+    padding: 0.5rem 0;
+}
+
+.footer-navigation ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*---------     recent-post    ---------*/
+.recent-post{
+    flex:25%;
+    
+    padding:1rem 2rem;
+    
+}
+.post span{
+    margin-left: 1rem;
+    
+}
+.post{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(64, 60, 60);
+
+}
+.recent-post div:nth-last-child(1) {
+    border-bottom: none;
+  }
+/*---------     news-letter    ---------*/
+.news-letter{
+    flex:25%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding:1rem 2rem;
+}
+.news-letter input{
+    width:200px;
+}
+.subscribe{
+    background-color:rgb(73, 190, 161);
+    width: 150px;
+    border-radius: 10px;
+    margin: 1rem 3rem;
+} 
